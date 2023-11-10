@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utkin</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <button class="burger btn-reset" data-burger aria-label="Открыть меню" aria-expanded="false">
+        <span class="burger__line"></span>
+      </button>
+      <a href="#" class="logo header__logo link-reset"><img src="/img/logo.png" alt="Utkin Logo"></a>
+      <div class="header__iner">
+        <nav class="nav header__nav" data-nav title="Главное меню">
+          <ul class="nav__list list-reset flex">
+            <li class="nav__item"><a href="#" class="nav__link nav__link-pseudo-class">Главная</a></li>
+            <li class="nav__item"><a href="#" class="nav__link nav__link-pseudo-class">Услуги</a></li>
+            <li class="nav__item"><a href="#" class="nav__link nav__link-pseudo-class">О нас</a></li>
+            <li class="nav__item"><a href="#" class="nav__link nav__link-pseudo-class">Цена</a></li>
+            <li class="nav__item"><a href="#" class="nav__link nav__link-pseudo-class">Контакты</a></li>
+          </ul>
+          <div class="btn-media">
+            <button class="header__btn btn-reset color-btn-blue">Sign up</button>
+            <button class="header__btn btn-reset color-btn-blue">Log in</button>
+          </div>
+
+        </nav>
+      </div>
+    </div>
+  </header>
+  <maim class="main">
+    <div class="scroll-up">
+      <svg class="scroll-up__svg" viewBox="-2 -2 52 52">
+        <path class="scroll-up__svg-path"
+        d="M24, 0
+        a24, 24 0 0,1 0,48
+        a24, 24 0 0,1 0, -48"/>
+      </svg>
+    </div>
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="hero-content">
+          <h1 class="hero__title">Эффективные логистические решения</h1>
+          <p class="hero__descr">Почувствуйте разницу</p>
+          <button class="hero__btn btn-reset color-btn-blue">Начать</button>
+        </div>
+      </div>
+    </section>
+    <section class="partners">
+      <div class="container">
+        <h2 class="title partners__title">Нам доверяют тысячи компаний</h2>
+        <div class="partners__slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="partners__stickers">
+                <picture>
+                  <!-- <source srcset="img/new-4-tablet.png" media="(max-width: 1440px)"> -->
+                  <img src="img/ozon.png" alt="Изображение стикера">
+                </picture>
+                <picture>
+                  <!-- <source srcset="img/new-5-tablet.png" media="(max-width: 1440px)"> -->
+                  <img src="img/yandex.png" alt="Изображение стикера">
+                </picture>
+                <picture>
+                  <!-- <source srcset="img/new-5-tablet.png" media="(max-width: 1440px)"> -->
+                  <img src="img/wb.png" alt="Изображение стикера">
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="partners__stickers">
+                <picture>
+                  <!-- <source srcset="img/new-1-tablet.png" media="(max-width: 1440px)"> -->
+                  <img src="img/cdek.png" alt="Изображение стикера">
+                </picture>
+                <picture>
+                  <!-- <source srcset="img/new-2-tablet.png" media="(max-width: 1440px)"> -->
+                  <img src="img/magnit.png" alt="Изображение стикера">
+                </picture>
+                <picture>
+                  <img src="img//mvideo.png" alt="Изображение стикера">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="partners__pagination swiper-pagination"></div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container services__container">
+        <div class="services__blog flex">
+          <div class="services__blog-picture services__blog-picture-background"></div>
+          <div class="services__blog-text">
+            <p class="services__span">Наши услуги</p>
+            <h2 class="services__title">Упростите и оптимизируйте свою логистику!</h2>
+            <p class="services__descr">Мы предлагаем широкий спектр логистических услуг, включая грузоперевозки,
+              складирование, таможенное оформление и многое другое. Наша опытная команда обеспечивает эффективные и
+              надежные решения, адаптированные к потребностям вашего бизнеса.</p>
+            <button class="services__button btn-reset color-btn-blue">Узнать больше</button>
+          </div>
+        </div>
+        <div class="services__blog flex">
+          <div class="services__blog-text">
+            <p class="services__span">Эффективные решения</p>
+            <h2 class="services__title">Простота – это ключ к успеху</h2>
+            <p class="services__descr">Наш оптимизированный подход к логистике позволяет нам предоставлять
+              высококачественные услуги без ненужных сложностей и задержек. Мы фокусируемся на том, что важно, и наши
+              клиенты ценят эффективность и результативность наших решений.</p>
+            <button class="services__button btn-reset color-btn-blue">Узнать больше</button>
+          </div>
+          <div class="services__blog-picture-2 services__blog-picture-background"></div>
+        </div>
+        <div class="services__blog flex">
+          <div class="services__blog-picture-3 services__blog-picture-background"></div>
+          <div class="services__blog-text">
+            <p class="services__span">Индивидуальные решения для вашего бизнеса</p>
+            <h2 class="services__title">Мы обслуживаем бизнес любого размера</h2>
+            <p class="services__descr">Независимо от того, являетесь ли вы небольшим стартапом или крупной корпорацией,
+              LogisticsPlus предлагает масштабируемые решения, которые помогут вашему бизнесу процветать. Мы понимаем
+              уникальные логистические проблемы, с которыми сталкиваются различные отрасли, и предоставляем
+              персонализированные услуги, отвечающие вашим конкретным требованиям.</p>
+            <button class="services__button btn-reset color-btn-blue">Связаться с нами</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blog">
+      <div class="container">
+        <h2 class="blog__title">Посетите наш блог</h2>
+        <p class="blog__descr">Будьте в курсе и вдохновлены!</p>
+        <div class="block__card">
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <i class="fab fa-opti"></i>
+              <h3>Оптимизация</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p class="section__blog-block-descr"> Откройте для себя
+                стратегии и лучшие практики
+                для оптимизации ваших
+                логистических операций.</p>
+                <p class="section__blog-block-descr-author">Mark Johnson</p>
+              <p class="section__blog-block-descr-specialist">Писатель по логистике</p>
+              <a class="section__blog-block-btn" href="#" type="button">Читать далее</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <i class="fab  fa-lightbulb-o"></i>
+              <h3>Инновация</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p class="section__blog-block-descr"> Инновации являются неотъемлемым ключом к достижению успеха в современном мире.</p>
+              <p class="section__blog-block-descr-author">Laura Reynolds</p>
+              <p class="section__blog-block-descr-specialist">Специалист отдела кадров</p>
+              <a class="section__blog-block-btn" href="#" type="button">Читать далее</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <i class="fab fa-adjust"></i>
+              <h3>Баланс и эффективность</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p class="section__blog-block-descr">Поддержание баланса между работой и личной жизнью в логистике: вызовы и решения</p>
+              <p class="section__blog-block-descr-author">Robert Anderson</p>
+              <p class="section__blog-block-descr-specialist">Менеджер по удовлетворению клиентов</p>
+              <a class="section__blog-block-btn" href="#" type="button">Читать далее</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="promotion">
+      <div class="container promation__block flex">
+        <h2 class="promation__block-title">Выведите свою логистику на следующий уровень</h2>
+        <p class="promation__block-descr">Познакомьтесь с нашими экспертами и поднимите свой бизнес!</p>
+        <button class="promation__block-btn btn-reset color-btn-blue">Начните сейчас </button>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <h2 class="reviews__title">Отзывы о LogisticsPlus</h2>
+        <p class="reviews__descr">Присоединяйтесь к более чем 1 миллиону профессионалов в области логистики со всего
+          мира, которые доверяют нашим услугам. Прочтите их отзывы ниже!</p>
+        <ul class="reviews__list list-reset flex">
+          <li class="reviews__item flex">
+            <div class="reviews__star flex">
+              <img class="reviews__star-item" src="/img/IconStar.png" alt="Оценка 5 из 5">
+              <img class="reviews__star-item" src="/img/IconStar.png" alt="Оценка 5 из 5">
+              <img class="reviews__star-item" src="/img/IconStar.png" alt="Оценка 5 из 5">
+              <img class="reviews__star-item" src="/img/IconStar.png" alt="Оценка 5 из 5">
+              <img class="reviews__star-item" src="/img/IconStar.png" alt="Оценка 5 из 5">
+            </div>
+            <p class="reviews__item-descr">
+              Эта платформа великолепна и повышает ценность моих логистических операций. Рекомендую ЛогистикПлюс без
+              сомнений.
+            </p>
+            <div class="reviews__user flex">
+              <div class="reviews__user-avatar">
+                <img src="/img/reviewsUser1.png" alt="Джон Смит">
+              </div>
+              <div class="reviews__user-text">
+                <p class="reviews__user-text-name">Джон Смит</p>
+                <p class="reviews__user-text-post">ABC Логистика</p>
+              </div>
+            </div>
+          </li>
+          <li class="reviews__item flex">
+            <div class="reviews__star flex">
+              <img class="reviews__star-item" src="/img/IconStar.png" alt="Оценка 5 из 5">
+              <img class="reviews__star-item" src="/img/IconStar.png" alt="Оценка 5 из 5">
+              <img class="reviews__star-item" src="/img/IconStar.png" alt="Оценка 5 из 5">
+              <img class="reviews__star-item" src="/img/IconStar.png" alt="Оценка 5 из 5">
+              <img class="reviews__star-item" src="/img/IconStar.png" alt="Оценка 5 из 5">
+            </div>
+            <p class="reviews__item-descr">
+              Пятизвездочный опыт для меня. Мне нравится использовать LogisticsPlus для решения всех моих логистических
+              задач.
+            </p>
+            <div class="reviews__user flex">
+              <div class="reviews__user-avatar">
+                <img src="/img/reviewsUser2.png" alt="Джон Смит">
+              </div>
+              <div class="reviews__user-text">
+                <p class="reviews__user-text-name">Эмили Джонсон</p>
+                <p class="reviews__user-text-post">XYZ Логистика </p>
+              </div>
+            </div>
+          </li>
+          <li class="reviews__item flex">
+            <div class="reviews__star flex">
+              <img class="reviews__star-item" src="/img/IconStar.png" alt="Оценка 5 из 5">
+              <img class="reviews__star-item" src="/img/IconStar.png" alt="Оценка 5 из 5">
+              <img class="reviews__star-item" src="/img/IconStar.png" alt="Оценка 5 из 5">
+              <img class="reviews__star-item" src="/img/IconStar.png" alt="Оценка 5 из 5">
+              <img class="reviews__star-item" src="/img/IconStar.png" alt="Оценка 5 из 5">
+            </div>
+            <p class="reviews__item-descr">
+              Попробовав LogisticsPlus, вы никогда не оглянетесь назад. Приятно общаться с другими специалистами в
+              области логистики.
+            </p>
+            <div class="reviews__user flex">
+              <div class="reviews__user-avatar">
+                <img src="/img/reviewsUser3.png" alt="Джон Смит">
+              </div>
+              <div class="reviews__user-text">
+                <p class="reviews__user-text-name">Майкл Дэвис</p>
+                <p class="reviews__user-text-post">LMN Логистика</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="functions">
+      <div class="container">
+        <div class="functions__blog flex">
+          <div class="functions__blog-subject flex">
+            <div class="functions__blog-text">
+              <p class="functions__span">ФУНКЦИИ</p>
+              <h2 class="functions__title">Испытайте лучшее в Логистике</h2>
+              <p class="functions__descr">Подпишитесь на бесплатную демо-версию, и мы покажем вам, как LogisticsPlus
+                может революционизировать ваши логистические процессы.</p>
+              <button class="functions__button btn-reset color-btn-white">Зарегистрируйтесь на бесплатную демо-версию</button>
+            </div>
+            <div class=" flex functions__blog-picture-background">
+              <img src="/img/functions-img.png" alt="functions">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="applications">
+      <div class="container applications__container flex">
+        <div class="applications__block flex">
+          <h2 class="applications__title">Подключайтесь к своим любимым приложениям</h2>
+          <p class="applications__descr">Откройте для себя бесшовную интеграцию</p>
+          <div class="btn-block"><button class="applications__btn btn-reset color-btn-blue">Подключите свои инструменты</button></div>
+        </div>
+        <div class="applications__img"><img src="/img/applications-img.png"></div>
+      </div>
+    </section>
+    <section class="try">
+      <div class="container try__container flex">
+        <h2 class="try__title">Попробуйте LogisticsPlus бесплатно</h2>
+        <p class="try__descr">Кредитная карта не требуется. Начните 14-дневную бесплатную пробную версию прямо сейчас.
+        </p>
+        <div class="btn-block">
+          <button class="try__btn btn-reset color-btn-white">Начать бесплатную пробную версию</button>
+          <button class="try__btn btn-reset color-btn-white">Свяжитесь с отделтом продаж</button>
+        </div>
+      </div>
+    </section>
+  </maim>
+  <footer class="footer">
+    <div class="container footer__container flex">
+      <h2 class="footer__title">Начните доставку сегодня</h2>
+      <form action="https://jsonplaceholder.typicode.com" method="POST" class="form flex">
+        <input type="email" class="filed" placeholder="Введите адрес электронной почты" required>
+      </form>
+      <div class="footer__block-list">
+      <ul class="footer__list flex">
+        <li class="footer__item"><a href="#" class="footer__link nav__link-pseudo-class">LogisticsPlus</a></li>
+        <li class="footer__item"><a href="#" class="footer__link nav__link-pseudo-class">Наш процесс</a></li>
+        <li class="footer__item"><a href="#" class="footer__link nav__link-pseudo-class">Как использовать</a></li>
+        <li class="footer__item"><a href="#" class="footer__link nav__link-pseudo-class">Информация</a></li>
+        <li class="footer__item"><a href="#" class="footer__link nav__link-pseudo-class">О нас</a></li>
+        <li class="footer__item"><a href="#" class="footer__link nav__link-pseudo-class">Контакт</a></li>
+      </ul>
+      <div class="footer__list-bottom ">
+      <ul class="footer__list flex">
+        <li class="footer__item-bottom"><a href="#" class="footer__link nav__link-pseudo-class">Складирование</a></li>
+        <li class="footer__item-bottom"><a href="#" class="footer__link nav__link-pseudo-class">Таможенное оформление</a></li>
+        <li class="footer__item-bottom"><a href="#" class="footer__link nav__link-pseudo-class">политика конфиденциальности</a></li>
+        <li class="footer__item-bottom"><a href="#" class="footer__link nav__link-pseudo-class">Terms of Service</a></li>
+      </ul></div>
+    </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
