@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты</title>
+  <link rel="shortcut icon" href="img/logo.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <button class="burger btn-reset" data-burger aria-label="Открыть меню" aria-expanded="false">
+        <span class="burger__line"></span>
+      </button>
+      <a href="index.html" class="logo header__logo link-reset"><img src="/img/logo.png" alt="Utkin Logo"></a>
+      <div class="header__iner">
+        <nav class="nav header__nav" data-nav title="Главное меню">
+          <ul class="nav__list list-reset flex">
+            <li class="nav__item"><a href="index.html" class="nav__link nav__link-pseudo-class">Главная</a></li>
+            <li class="nav__item"><a href="#" class="nav__link nav__link-pseudo-class">Услуги</a></li>
+            <li class="nav__item"><a href="about.html" class="nav__link nav__link-pseudo-class">О нас</a></li>
+            <li class="nav__item"><a href="#" class="nav__link nav__link-pseudo-class">Цена</a></li>
+            <li class="nav__item"><a href="contact.html" class="nav__link nav__link-pseudo-class">Контакты</a></li>
+          </ul>
+          <div class="btn-media">
+            <button class="header__btn btn-reset">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <circle cx="19.9999" cy="13.3334" r="6.66667" fill="white" />
+                <path
+                  d="M9.78187 25.9027C10.7497 23.1999 13.4383 21.6667 16.3092 21.6667H23.6907C26.5615 21.6667 29.2502 23.1999 30.218 25.9027C30.8781 27.7461 31.4917 30.0135 31.6351 32.334C31.6692 32.8852 31.2189 33.3334 30.6666 33.3334H9.33325C8.78097 33.3334 8.33062 32.8852 8.36469 32.334C8.50812 30.0135 9.12178 27.7461 9.78187 25.9027Z"
+                  fill="white" />
+              </svg></button>
+            <button class="header__btn btn-reset">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M3.36292 21.0001H20.9192L14.293 27.6263L15.7072 29.0405L24.0405 20.7072L24.7476 20.0001L24.0405 19.293L15.7072 10.9596L14.293 12.3739L20.9192 19.0001H3.36292C3.88008 10.2609 11.1311 3.33342 20.0001 3.33342C29.2048 3.33342 36.6667 10.7953 36.6667 20.0001C36.6667 29.2048 29.2048 36.6667 20.0001 36.6667C11.1311 36.6667 3.88008 29.7392 3.36292 21.0001Z"
+                  fill="white" />
+              </svg></button>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="contact">
+      <div class="container contact__container">
+        <h1 class="contact__title">Связаться с нами</h1>
+        <div class="contact__form-blocks">
+            <form action="https://jsonplaceholder.typicode.com" method="POST" class="contact__form flex">
+              <input type="text" class="contact__filed" name="username" placeholder="Фамилия, имя и отчество*" required>
+              <input type="email" class="contact__filed" placeholder="E-mail*" required>
+              <textarea class="contact__filed textarea" name="Comment" placeholder="Сообщение"></textarea>
+                <button aria-label="Кнопка отправки данных" type="submit" class=" btn-reset contact__btn">Отправить
+                  сообщение</button>
+            </form>
+          <div class="contact__info__block">
+            <h2 class="contact__info__block-headline">Контактная информация</h2>
+            <h3 class="contact__info__block-title">Адрес</h3>
+            <p class="contact__info__block-descr">Казань, ТРК “Кольцо, ул. Петербургская, 1,420107</p>
+            <h3 class="contact__info__block-title">Телефон</h3>
+            <p class="contact__info__block-descr"><a href="tel: +7 995 688 84 05">+7 995 688 84 05</a></p>
+            <h3 class="contact__info__block-title">Email</h3>
+            <p class="contact__info__block-descr"><a href="mailto:info@logisticsplus.com">info@logisticsplus.com</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="map">
+      <div class="container map__container">
+        <h3 class="map__title">Располажение нашего офиса на карте</h3>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2243.385437971613!2d49.121576277183216!3d55.78654478939131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415ead0fdc0077f7%3A0x60110ec21cced7cd!2z0KLQoNCaICLQmtC-0LvRjNGG0L4i!5e0!3m2!1sru!2sru!4v1706205752188!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
