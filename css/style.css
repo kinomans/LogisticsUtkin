@@ -447,7 +447,7 @@ p {
   position: relative;
   padding-top: 100px;
   padding-bottom: 289px;
-  background-image: url('/img/323.png');
+  background-image: url('../img/323.png');
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -568,7 +568,7 @@ p {
   padding-top: 167px;
   padding-bottom: 250px;
   background-color: #F3FAFF;
-  background-image: url('/img/services.png'), url('/img/services-liquidglass.png'), url('/img/services-liquidglass-3.png'), url('/img/services-liquidglass-5.png');
+  background-image: url('../img/services.png'), url('../img/services-liquidglass.png'), url('../img/services-liquidglass-3.png'), url('../img/services-liquidglass-5.png');
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
   background-position: 100% 0, 0 53%, 100% 78%, 0 100%;
 }
@@ -1017,7 +1017,7 @@ p {
 /* functions */
 
 .functions {
-  background-image: url('/img/function-img.png');
+  background-image: url('../img/function-img.png');
   background-repeat: no-repeat;
   background-position: 95% 50%;
   padding: 100px 0;
@@ -1076,7 +1076,7 @@ p {
 }
 .applications {
   padding: 100px 0;
-  background-image: url('/img/applications-social-img-2.png');
+  background-image: url('../img/applications-social-img-2.png');
   background-repeat: no-repeat;
   background-position: 20% 50%;
   margin-bottom: 50px;
